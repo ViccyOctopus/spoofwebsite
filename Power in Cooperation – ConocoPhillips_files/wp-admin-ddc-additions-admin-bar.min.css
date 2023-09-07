@@ -1,0 +1,50 @@
+/*------------------------------------------------------------------------------
+
+This is DDC addition to the admin-bar.min.css WordPress CSS file.
+
+/*------------------------------------------------------------------------------
+  Logo and Menu
+------------------------------------------------------------------------------*/
+#wp-admin-bar-wp-logo > .ab-item .ab-icon, #wp-admin-bar-ddc-menu > .ab-item .ab-icon {
+    background-image: url("../images/DDCLogo.png");
+    background-position: 0 -20px;
+    background-repeat: no-repeat;
+    height: 20px;
+    margin-top: 2px;
+    width: 86px;
+}
+#wpadminbar.nojs #wp-admin-bar-wp-logo:hover > .ab-item .ab-icon,
+#wpadminbar #wp-admin-bar-wp-logo.hover > .ab-item .ab-icon,
+#wpadminbar.nojs #wp-admin-bar-ddc-menu:hover > .ab-item .ab-icon,
+#wpadminbar #wp-admin-bar-ddc-menu.hover > .ab-item .ab-icon {
+    background-position: 0 0;
+}
+#wpadminbar ul li#wp-admin-bar-about-ddc-advocacy {
+	border-bottom: solid 1px #DFDFDF;
+}
+#wpadminbar ul li#wp-admin-bar-democracy-direct,
+#wpadminbar ul li#wp-admin-bar-google-analytics,
+#wpadminbar ul li#wp-admin-bar-contact-customer-support {
+	background:#EEEEEE;
+}
+#wpadminbar ul li#wp-admin-bar-democracy-direct:hover,
+#wpadminbar ul li#wp-admin-bar-google-analytics:hover,
+#wpadminbar ul li#wp-admin-bar-contact-customer-support:hover,
+#wpadminbar ul li#wp-admin-bar-democracy-direct:focus,
+#wpadminbar ul li#wp-admin-bar-google-analytics:focus,
+#wpadminbar ul li#wp-admin-bar-contact-customer-support:focus,
+#wpadminbar ul li#wp-admin-bar-democracy-direct:active,
+#wpadminbar ul li#wp-admin-bar-google-analytics:active,
+#wpadminbar ul li#wp-admin-bar-contact-customer-support:active {
+	background:#dfdfdf;
+}
+#wpadminbar #wp-admin-bar-wp-logo-default { 
+	padding-bottom: 0;
+}
+#wpadminbar #wp-admin-bar-wp-logo-external {
+	padding-top: 0;
+}
+#wpadminbar .menupop .ab-sub-wrapper .ab-item{ 
+	*padding-bottom: 1px !important; 
+	*padding-top: 1px !important;
+}/*fix for admin bar logo menu*/
